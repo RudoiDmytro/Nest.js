@@ -19,7 +19,7 @@ export class TimerService {
 			include: {
 				pomodoroRounds: {
 					orderBy: {
-						id: 'desc'
+						id: 'asc'
 					}
 				}
 			}
